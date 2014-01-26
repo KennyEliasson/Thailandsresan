@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html ng-app="yomoApp">
+<head>
+    <title>Jenny och Kenny i Thailand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href="content/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style type="text/css">
+
+
+        body {
+            color: #555555;
+            font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            background: url("back.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+            border-top: 3px solid #E24E35;
+        }
+
+        h1 {
+            font-family: Oswald, Arial;
+        }
+
+        .logo-icon {
+            font-size:100px;
+        }
+
+        .color {
+            color:#E24E35
+        }
+
+        header {
+            margin-top: 30px;
+            text-align:center;
+        }
+
+        footer {
+            background: url("fback.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+            border-top: 3px solid #E24E35;
+            color: #DDDDDD;
+            font-size: 14px;
+            margin-top: 30px;
+            padding: 10px 0;
+        }
+
+        .panel .panel-heading {
+            background-color: #E24E35;
+            color: #fff;
+        }
+
+        .panel-locked {
+            opacity: 0.3;
+        }
+
+        .locked {
+            z-index:1000;position:absolute;left:0;right:0;margin:auto;text-align:center;top:0;bottom:0;height:25px;
+        }
+
+        .fa {
+            font-size:25px;
+            color:white;
+        }
+
+     
+
+.calculation-headline-row h4, .calculation-headline-row td {
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:0px;
+	padding-bottom:0;
+}
+
+.calculation-headline-row  {
+	border-top:1px solid #E24E35;
+	border-bottom:1px solid #E24E35;
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.summary-row {
+	border-top:1px solid #E24E35;
+	border-bottom:1px solid #E24E35;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logotype">
+                        <div class="logo-icon">
+                            <span class="glyphicon glyphicon-thumbs-up" style=""></span>
+                        </div>
+                        
+                        <h1 class="color">Jenny och Kenny i Thailand</h1>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="description">
+                        <p>
+                            Sol, bad och härligt väder!
+                        </p>
+
+                    </div>
+                </div>
+
+                <hr />
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="panel panel-default" >
+                    <div class="panel-heading">
+                        <span  contenteditable>Idag är vi</span>
+                    </div>
+                    <div class="panel-body">
+                        
+                            
+                            
+                        
+
+                        <table class="table table-striped">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Datum</th>
+									<th>Avgång</th>
+									<th>Från</th>
+									<th>Ankomst</th>
+									<th>Till</th>
+								</tr>
+							</thead>
+							
+							<tbody>
+								<tr>
+									<td><img src="content/train.png"></td>
+									<td>05 feb</td>
+									<td>...</td>
+									<td>Halmstad/Helsingborg</td>
+									<td>~07:00</td>
+									<td>Kastrup</td>
+								<tr>
+								<tr>
+									<td><img src="content/flight.png"></td>
+									<td>05 feb</td>
+									<td>08:55</td>
+									<td>Köpenhamn</td>
+									<td>11:30</td>
+									<td>Helsingfors</td>
+								<tr>
+								<tr>
+									<td><img src="content/flight.png"></td>
+									<td>05 feb</td>
+									<td>16:40</td>
+									<td>Helsingfors</td>
+									<td>07:25</td>
+									<td>Bangkok</td>
+								<tr>
+								<tr>
+									<td><img src="content/flight.png"></td>
+									<td>06 feb</td>
+									<td>13:20</td>
+									<td>Bangkok</td>
+									<td>14:40</td>
+									<td>Krabi</td>
+								<tr>
+								<tr>
+									<td><img src="content/car.png"></td>
+									<td>Transfer till <strong>Koh Lanta</strong></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Koh Lanta (6-11 feb)</strong></td>
+								<tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Hotell Rawi Warin</strong>, 5 nätter <a href="http://www.rawiwarinresort.net/">(Hemsida)</a></td>
+								<tr>
+								<tr>
+									<td><img src="content/boat.png"></td>
+									<td>11 feb</td>
+									<td>10:30</td>
+									<td>Koh Lanta</td>
+									<td>13:30</td>
+									<td>Koh Lipe</td>
+								<tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Koh Lipe (11-15 feb)</strong></td>
+								<tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Hotell Ricci House Resort</strong>, 4 nätter <a href="http://www.riccihouse.com/">(Hemsida)</a></td>
+								<tr>
+								<tr>
+									<td><img src="content/boat.png"></td>
+									<td>15 feb</td>
+									<td>10:30</td>
+									<td>Koh Lipe</td>
+									<td>11:30</td>
+									<td>Langkawi</td>
+								<tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Langkawi (15-17 feb)</strong></td>
+								<tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Hotell  White Lodge Chalet</strong>, 2 nätter <a href="http://www.tripadvisor.se/Hotel_Review-g1096282-d1499281-Reviews-White_Lodge_Motel-Pantai_Cenang_Langkawi_Langkawi_District_Kedah.html">(Hemsida)</a></td>
+								<tr>
+								<tr>
+									<td><img src="content/flight.png"></td>
+									<td>17 feb</td>
+									<td>10:10</td>
+									<td>Langkawi</td>
+									<td>11:30</td>
+									<td>Kuala Lumpur</td>
+								<tr>
+								<tr>
+									<td><img src="content/flight.png"></td>
+									<td>17 feb</td>
+									<td>12:25</td>
+									<td>Kuala Lumpur</td>
+									<td>13:30</td>
+									<td>Bangkok</td>
+								<tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Bangkok (17-19 feb)</strong></td>
+								<tr>
+								<tr>
+									<td></td>
+									<td colspan="5"><strong>Hotell Swissotel, Nai Lert Park</strong>, 2 nätter <a href="http://www.swissotel.com/hotels/bangkok-nai-lert-park/">(Hemsida)</a></td>
+								<tr>
+								<tr>
+									<td><img src="content/flight.png"></td>
+									<td>19 feb</td>
+									<td>10:55</td>
+									<td>Bangkok</td>
+									<td>17:05</td>
+									<td>Helsingfors</td>
+								<tr>
+								<tr>
+									<td><img src="content/flight.png"></td>
+									<td>19 feb</td>
+									<td>17:45</td>
+									<td>Helsingfors</td>
+									<td>18:25</td>
+									<td>Köpenhamn</td>
+								<tr>
+							</tbody>
+						</table>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clearfix">&nbsp;</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.2/angular.min.js"></script>
+    
+    <script type="text/javascript">
+
+  
+
+
+        var yomoApp = angular.module("yomoApp", []);
+
+
+		yomoApp.controller("Thailand", function($scope) {
+			
+		});
+
+        
+    </script>
+
+
+</body>
+</html>
+
+
